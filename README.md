@@ -1,3 +1,3 @@
 # the_book
 
-A new Flutter project.
+just a digital Cookbook
