@@ -1,0 +1,28 @@
+<base_app_settings>
+    <sources>
+        <source>
+            <path>
+                "/asdhasdhaskda"
+            </path>
+            <own>
+                false
+            </own>
+        </source>
+    </sources>
+</base_app_settings>
+
+<source_base>
+    <owner>
+        UName
+    </owner>
+    <recepies>
+        <recepie>
+            <title></title>
+            <description></description>
+            <image></image> <!-- in base64-->
+            <components>
+                ....
+            </components> <!-- a list of all paragraps, ingidient lists, timers ect.-->
+        </recepie>
+    </recepies>
+</source_base>
