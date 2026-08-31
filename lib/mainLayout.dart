@@ -8,7 +8,9 @@ class Mainlayout extends StatelessWidget{
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text("b")
+        AppBar(
+          title: const Text('Main Layout'),
+        ),
       ],
     );
   }
