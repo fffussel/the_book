@@ -19,14 +19,19 @@ class MainLayout extends StatelessWidget {
       body: body,
       drawer: const Drawer(
         child: Center(
-          child: Text('Menu'),
+          child: TextButton(
+            onPressed: null,
+            child: Icon(Icons.settings),
+          ),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Add new Recipe'),
+          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search')
         ],
+        useLegacyColorScheme: false,
       ),
     );
   }
