@@ -10,13 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home:  MainLayout(
-        title: 'Home',
-        body: Center(
-          child: Text('This is the changing center content'),
-        ),
-      ),
+    return const MaterialApp(
+      home: MainLayout(),
     );
   }
 }
